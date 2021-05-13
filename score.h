@@ -7,6 +7,7 @@
 // 2. Data structure definitions 
 // 3. funtion prototypes(a.k.a function decleration)
 
+//this comment is added by github
 #define MAX 30
 // this comment is added from local 
 void input_scores(int[]);
