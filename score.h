@@ -8,7 +8,7 @@
 // 3. funtion prototypes(a.k.a function decleration)
 
 #define MAX 30
-
+// this comment is added from local 
 void input_scores(int[]);
 void evaluation(int[], int[]);
 void classification(int[], int[]);
