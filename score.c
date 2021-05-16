@@ -2,7 +2,7 @@
 
 int main(void) {
 	int scores[MAX], marks[MAX];
-	int statistics[6];
+	int statistics[6] = {0};
 	input_scores(scores);
 	evaluation(scores, marks);
 	classification(marks, statistics);
