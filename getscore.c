@@ -5,12 +5,12 @@ void input_scores(int s[]) {
 	// get user input by using a sentinel-controled loop
 	int i, input=0;
 	printf("enter score, -1 to end: \n");
-	for (i = 0; i < MAX && input != -1; i++) {
+	for (i = 0; i < MAX && input != -1; ) {
 		scanf("%d", &input);
-		if (0 < input && input < 100) {
+		if (input>=0 && input <= 100 || input == -1) {
 			s[i] = input;
+			i++;
 		}
-		else i--;
 	}
 	printf("%d score are given \n", i-1);
 }
